@@ -1,0 +1,11 @@
+.flex-container{
+    background-color: rgb(159, 103, 224);
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container div{
+    background-color: rgb(240, 224, 84);
+    margin: 20px;
+    padding: 10px;
+}
