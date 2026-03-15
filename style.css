@@ -1,0 +1,189 @@
+/*CABECALHO*/
+
+header {
+    background-color: bisque;
+    color: darkgreen;
+    font-size: 18px; 
+    font-weight: bolder; 
+    border: 3px solid blue;
+    padding: 20px;
+    margin: 3px;
+    margin-bottom: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+img {
+    margin-right: 10px;
+}
+
+
+
+
+/*MENU DE LINK*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.menu {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+menu{
+    background-color:lightskyblue;
+    color: #6c027a;
+    padding: 2px 0;
+    text-align: center;
+    margin-top: 0;
+    margin: 0px;
+    margin-left: 3px; 
+    margin-right: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: darkred;
+    text-decoration: none;
+    padding: 40px;
+    font-weight: bold;
+}
+
+
+/*INTRO*/
+
+Intro p{
+    color: #4b0082; 
+    font-family: sans-serif;
+    font-size: 20pt;
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+  
+
+
+
+
+/*LIVROS*/
+
+livros img{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/*INFRAMES*/
+
+    blocos iframe {
+     margin-right: 100px; /* Adiciona margem à direita do primeiro iframe */
+    }
+
+
+
+    
+/*TABELA CONTATOS*/
+
+.tabela-vermelha {
+    border: 6px dashed red;
+    border-collapse: collapse; 
+  }
+  
+  .tabela-vermelha th, .tabela-vermelha td {
+    border: 3px solid red; 
+    padding: 8px; 
+  }
+.tabela-vermelha th{
+    color:red;
+}
+
+
+  /*TABELA AMARELA ALEATÓRIA DE FEIA*/
+
+  .quadrado-amarelo {
+    width: 700px;
+    background-color: yellow;
+    padding: 6px;
+    margin-top: 100px;
+}
+
+.titulo {
+    text-align: left;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-item .bullet {
+    margin-right: 1px;
+}
+
+a {
+    text-decoration: none;
+    color:red;
+    display: inline-block;
+}
+
+.bullet::before {
+    content: "• ";
+}
+
+.link {
+    text-align: center;
+    flex-basis: 80%; 
+    color: red
+}
+
+/*RODA PÉ PRA FINALIZAR A PAGINA*/
+
+.raw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;      
+    background-color: bisque;
+    margin-bottom: 0px;
+    margin-top: 19px;
+}
+
+.text {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 15pt;
+    font-family: Comic Sans MS;
+}
+
+img {
+    margin-right: 10px;
+}
