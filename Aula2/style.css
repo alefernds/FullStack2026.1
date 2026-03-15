@@ -1,0 +1,21 @@
+p{
+    color:rgb(255, 255, 255);
+    background-color: gray;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serifs;
+}
+
+#p1{
+  background-color: black;
+
+}
+
+#p2{
+  background-color: plum;
+
+}
+
+.pb{
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+}

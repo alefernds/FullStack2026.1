@@ -1,0 +1,35 @@
+#Tittle{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(128, 128, 128, 0.63);
+    color: gray;
+    text-align: center;
+}
+
+#grif{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(130, 0, 0);
+    color: gold;
+}
+
+#son{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(19, 59, 0);
+    color: gray;
+}
+
+#corv{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(14, 41, 197, 0.904);
+    color: silver;
+}
+
+#luf{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 238, 88);
+    color: black;
+}
