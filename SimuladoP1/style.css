@@ -1,0 +1,41 @@
+#roxo{
+    padding: 10px;
+    height: 100px;
+    width: 6%;
+    background-color: blueviolet;
+    margin: 12px;
+    color: antiquewhite;
+}
+
+
+#fto1{
+    width: 175px;
+    height: 135px;
+}
+
+#fto2{
+    width: 175px;
+    height: 135px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+#links1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#links2{
+    display: flex;
+    justify-content: center;
+    color: rgb(71, 71, 194);
+}
+
+#fto3{
+    margin-left: 750px;
+}
